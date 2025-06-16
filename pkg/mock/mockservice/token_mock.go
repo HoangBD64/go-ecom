@@ -8,7 +8,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	token "github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/service/token"
+	token "github.com/HoangBD64/go-ecom/pkg/service/token"
 )
 
 // MockTokenService is a mock of TokenService interface.

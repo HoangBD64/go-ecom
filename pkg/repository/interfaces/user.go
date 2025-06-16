@@ -3,8 +3,8 @@ package interfaces
 import (
 	"context"
 
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/handler/response"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/domain"
+	"github.com/HoangBD64/go-ecom/pkg/api/handler/response"
+	"github.com/HoangBD64/go-ecom/pkg/domain"
 )
 
 //go:generate mockgen -destination=../../mock/mockrepo/user_mock.go -package=mockrepo . UserRepository

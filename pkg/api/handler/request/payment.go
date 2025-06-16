@@ -1,6 +1,6 @@
 package request
 
-import "github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/domain"
+import "github.com/HoangBD64/go-ecom/pkg/domain"
 
 type PaymentMethod struct {
 	PaymentType   string `json:"payment_type" binding:"required,min=2,max=20"`

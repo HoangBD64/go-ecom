@@ -3,9 +3,9 @@ package interfaces
 import (
 	"context"
 
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/handler/request"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/domain"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/service/token"
+	"github.com/HoangBD64/go-ecom/pkg/api/handler/request"
+	"github.com/HoangBD64/go-ecom/pkg/domain"
+	"github.com/HoangBD64/go-ecom/pkg/service/token"
 )
 
 //go:generate mockgen -destination=../../mock/mockusecase/auth_mock.go -package=mockusecase . AuthUseCase

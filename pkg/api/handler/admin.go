@@ -7,12 +7,12 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/handler/interfaces"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/handler/request"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/handler/response"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/domain"
-	usecaseInterface "github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/usecase/interfaces"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/utils"
+	"github.com/HoangBD64/go-ecom/pkg/api/handler/interfaces"
+	"github.com/HoangBD64/go-ecom/pkg/api/handler/request"
+	"github.com/HoangBD64/go-ecom/pkg/api/handler/response"
+	"github.com/HoangBD64/go-ecom/pkg/domain"
+	usecaseInterface "github.com/HoangBD64/go-ecom/pkg/usecase/interfaces"
+	"github.com/HoangBD64/go-ecom/pkg/utils"
 )
 
 type adminHandler struct {

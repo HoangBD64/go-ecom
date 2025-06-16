@@ -9,10 +9,10 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	request "github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/handler/request"
-	domain "github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/domain"
-	token "github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/service/token"
-	interfaces "github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/usecase/interfaces"
+	request "github.com/HoangBD64/go-ecom/pkg/api/handler/request"
+	domain "github.com/HoangBD64/go-ecom/pkg/domain"
+	token "github.com/HoangBD64/go-ecom/pkg/service/token"
+	interfaces "github.com/HoangBD64/go-ecom/pkg/usecase/interfaces"
 )
 
 // MockAuthUseCase is a mock of AuthUseCase interface.

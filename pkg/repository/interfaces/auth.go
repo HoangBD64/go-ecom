@@ -3,7 +3,7 @@ package interfaces
 import (
 	"context"
 
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/domain"
+	"github.com/HoangBD64/go-ecom/pkg/domain"
 )
 
 // //go:generate mockgen -destination=../../mock/mockrepo/auth_mock.go -package=mockrepo . AuthRepository

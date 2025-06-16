@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/handler/request"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/domain"
+	"github.com/HoangBD64/go-ecom/pkg/api/handler/request"
+	"github.com/HoangBD64/go-ecom/pkg/domain"
 )
 
 // find wallet by userID

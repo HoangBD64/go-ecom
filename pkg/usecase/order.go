@@ -7,12 +7,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/handler/request"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/handler/response"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/domain"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/repository/interfaces"
-	service "github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/usecase/interfaces"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/utils"
+	"github.com/HoangBD64/go-ecom/pkg/api/handler/request"
+	"github.com/HoangBD64/go-ecom/pkg/api/handler/response"
+	"github.com/HoangBD64/go-ecom/pkg/domain"
+	"github.com/HoangBD64/go-ecom/pkg/repository/interfaces"
+	service "github.com/HoangBD64/go-ecom/pkg/usecase/interfaces"
+	"github.com/HoangBD64/go-ecom/pkg/utils"
 )
 
 type OrderUseCase struct {

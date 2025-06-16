@@ -34,7 +34,7 @@ Make sure you have the following installed on your system:
 ### 1. Clone the Repository
 Clone the ecommerce-gin-clean-arch repository to your local system:
 ```bash
-git clone https://github.com/nikhilnarayanan623/ecommerce-gin-clean-arch.git
+git clone https://github.com/HoangBD64/go-ecom.git
 cd ecommerce-gin-clean-arch
 ```
 ### 2. Install Dependencies

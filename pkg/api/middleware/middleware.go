@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/service/token"
+	"github.com/HoangBD64/go-ecom/pkg/service/token"
 )
 
 type Middleware interface {

@@ -5,16 +5,16 @@ package di
 
 import (
 	"github.com/google/wire"
-	http "github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/handler"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/middleware"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/config"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/db"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/repository"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/service/cloud"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/service/otp"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/service/token"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/usecase"
+	http "github.com/HoangBD64/go-ecom/pkg/api"
+	"github.com/HoangBD64/go-ecom/pkg/api/handler"
+	"github.com/HoangBD64/go-ecom/pkg/api/middleware"
+	"github.com/HoangBD64/go-ecom/pkg/config"
+	"github.com/HoangBD64/go-ecom/pkg/db"
+	"github.com/HoangBD64/go-ecom/pkg/repository"
+	"github.com/HoangBD64/go-ecom/pkg/service/cloud"
+	"github.com/HoangBD64/go-ecom/pkg/service/otp"
+	"github.com/HoangBD64/go-ecom/pkg/service/token"
+	"github.com/HoangBD64/go-ecom/pkg/usecase"
 )
 
 func InitializeApi(cfg config.Config) (*http.ServerHTTP, error) {

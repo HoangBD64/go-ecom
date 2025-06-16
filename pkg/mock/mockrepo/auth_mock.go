@@ -9,7 +9,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	domain "github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/domain"
+	domain "github.com/HoangBD64/go-ecom/pkg/domain"
 )
 
 // MockAuthRepository is a mock of AuthRepository interface.

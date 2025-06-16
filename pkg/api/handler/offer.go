@@ -6,12 +6,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/copier"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/handler/interfaces"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/handler/request"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/handler/response"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/domain"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/usecase"
-	usecaseInterface "github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/usecase/interfaces"
+	"github.com/HoangBD64/go-ecom/pkg/api/handler/interfaces"
+	"github.com/HoangBD64/go-ecom/pkg/api/handler/request"
+	"github.com/HoangBD64/go-ecom/pkg/api/handler/response"
+	"github.com/HoangBD64/go-ecom/pkg/domain"
+	"github.com/HoangBD64/go-ecom/pkg/usecase"
+	usecaseInterface "github.com/HoangBD64/go-ecom/pkg/usecase/interfaces"
 )
 
 type offerHandler struct {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/config"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/domain"
+	"github.com/HoangBD64/go-ecom/pkg/config"
+	"github.com/HoangBD64/go-ecom/pkg/domain"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

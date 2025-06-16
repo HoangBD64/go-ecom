@@ -3,7 +3,7 @@ package utils
 import (
 	"errors"
 
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/domain"
+	"github.com/HoangBD64/go-ecom/pkg/domain"
 )
 
 // To compare and return error for the same fields

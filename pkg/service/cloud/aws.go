@@ -6,13 +6,13 @@ import (
 	"mime/multipart"
 	"time"
 
+	"github.com/HoangBD64/go-ecom/pkg/config"
+	"github.com/HoangBD64/go-ecom/pkg/utils"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/google/uuid"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/config"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/utils"
 )
 
 type awsService struct {

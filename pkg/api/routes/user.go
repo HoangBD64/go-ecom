@@ -2,8 +2,8 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-	handlerInterface "github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/handler/interfaces"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/middleware"
+	handlerInterface "github.com/HoangBD64/go-ecom/pkg/api/handler/interfaces"
+	"github.com/HoangBD64/go-ecom/pkg/api/middleware"
 )
 
 func UserRoutes(api *gin.RouterGroup, authHandler handlerInterface.AuthHandler, middleware middleware.Middleware,

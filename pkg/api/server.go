@@ -4,10 +4,10 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	_ "github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/cmd/api/docs"
-	handlerInterface "github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/handler/interfaces"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/middleware"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/api/routes"
+	_ "github.com/HoangBD64/go-ecom/cmd/api/docs"
+	handlerInterface "github.com/HoangBD64/go-ecom/pkg/api/handler/interfaces"
+	"github.com/HoangBD64/go-ecom/pkg/api/middleware"
+	"github.com/HoangBD64/go-ecom/pkg/api/routes"
 	swaggerfiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
 )
@@ -17,7 +17,7 @@ type ServerHTTP struct {
 }
 
 // @title						E-commerce Application Backend API
-// @description				Backend API built with Golang using Clean Code architecture. \nGithub: [https://github.com/nikhilnarayanan623/ecommerce-gin-clean-arch].
+// @description				Backend API built with Golang using Clean Code architecture. \nGithub: [https://github.com/HoangBD64/go-ecom].
 //
 // @contact.name				For API Support
 // @contact.email				nikhilnarayanan623@gmail.com

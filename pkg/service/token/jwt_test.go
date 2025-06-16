@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/HoangBD64/go-ecom/pkg/config"
 	"github.com/golang-jwt/jwt"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/config"
 	"github.com/stretchr/testify/assert"
 )
 

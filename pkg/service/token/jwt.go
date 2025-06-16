@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/HoangBD64/go-ecom/pkg/config"
+	"github.com/HoangBD64/go-ecom/pkg/utils"
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/config"
-	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/utils"
 )
 
 type jwtAuth struct {

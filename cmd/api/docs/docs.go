@@ -4532,7 +4532,7 @@ var SwaggerInfo = &swag.Spec{
 	BasePath:         "/api",
 	Schemes:          []string{},
 	Title:            "E-commerce Application Backend API",
-	Description:      "Backend API built with Golang using Clean Code architecture. \\nGithub: [https://github.com/nikhilnarayanan623/ecommerce-gin-clean-arch].",
+	Description:      "Backend API built with Golang using Clean Code architecture. \\nGithub: [https://github.com/HoangBD64/go-ecom].",
 	InfoInstanceName: "swagger",
 	SwaggerTemplate:  docTemplate,
 	LeftDelim:        "{{",

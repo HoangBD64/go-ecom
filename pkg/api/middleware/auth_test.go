@@ -8,7 +8,7 @@ package middleware
 
 // 	"github.com/gin-gonic/gin"
 // 	"github.com/golang/mock/gomock"
-// 	"github.com/nikhilnarayanan623/ecommerce-gin-clean-arch/pkg/token"
+// 	"github.com/HoangBD64/go-ecom/pkg/token"
 // 	"github.com/stretchr/testify/assert"
 // )
 
